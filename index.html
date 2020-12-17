@@ -14,7 +14,7 @@
         <div class="container">
             <nav class="nav">
                 <a href="#" class="nav__items nav__items--cta">Contáctame</a>
-                <a href="#" class="nav__items">Sobre mí</a>
+                <a href="#aboutMe" class="nav__items">Sobre mí</a>
                 <a href="#" class="nav__items">Proyectos</a>
             </nav>
 
@@ -38,7 +38,7 @@
 
     <!-- Va el contenido principal de la página -->
     <main>
-        <section class="presentation container">
+        <section id="aboutMe" class="presentation container">
             <img src="assets/profile.jpg" class="presentation__picture">
             <h2 class="subtitle">Mi nombre es Felix.</h2>
             <p class="presentation__copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur maxime adipisci ad, quos voluptatum assumenda, saepe, similique hic illum voluptates libero porro! Ut, totam dolorum! Repudiandae quis corporis ipsum voluptate!</p>
@@ -116,9 +116,9 @@
             </div>
         </section> -->
         
-        <section class="testimony container">
+        <section id="We" class="testimony container">
             <h2 class="subtitle">¿Qué dicen de nosotros?</h2>
-            <div class="testimony__ grid">
+            <div class="testimony__grid">
                 <article class="testimony__item">
                     <div class="testimony__person">
                         <img src="assets/profile.jpg" alt="" class="testimony__img">
@@ -157,6 +157,16 @@
                     </p>
                 </article>
             </div>
+        </section>
+
+        <section>
+            <form action="mailto:cxchillogallid64@gmail.com" method="post" name="form1">
+                <label for="nombre">Nombre: </label><br>
+                <input id="nombre" name="nombre" type="text" /><br>
+                <label for="email">Email: </label><br>
+                <input id="email" name="nombre" type="text" />
+                <input name="Submit" type="submit" value="Enviar" />
+              </form>
         </section>
     </main>
 
